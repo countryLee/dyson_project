@@ -2603,7 +2603,7 @@ footer .menu_list {
     height: 52px;
   }
   .sec_title_eb80 {
-    font-size: 56px;
+    font-size: 52px;
   }
   .staff_behind_secrion .col_images {
     transform: scale(0.5);
@@ -2654,29 +2654,6 @@ footer .menu_list {
   .t_list_01 {
     background: #53535b url(../image/remaster_01.jpg) no-repeat 160px -40px / cover;
   }
-  /* .active.t_list_01,
-  .active.t_list_02,
-  .active.b_list_01,
-  .active.b_list_02,
-  .active.b_list_03 {
-    background: #000;
-  }
-
-  .active.t_list_01 .text_wrap .title_sb40,
-  .active.t_list_02 .text_wrap .title_sb40,
-  .active.b_list_01 .text_wrap .title_sb40,
-  .active.b_list_02 .text_wrap .title_sb40,
-  .active.b_list_03 .text_wrap .title_sb40 {
-    display: none;
-  }
-
-  .active.t_list_01 .text_wrap .text_r16,
-  .active.t_list_02 .text_wrap .text_r16,
-  .active.b_list_01 .text_wrap .text_r16,
-  .active.b_list_02 .text_wrap .text_r16,
-  .active.b_list_03 .text_wrap .text_r16 {
-    display: flex;
-  } */
 
   .t_list_02 {
     background: #000 url(../image/remaster_02.jpg) no-repeat 150px center /
@@ -2705,7 +2682,7 @@ footer .menu_list {
   }
 
   .title_sb40 {
-    font-size: 30px;
+    font-size: 28px;
   }
   .color_select_wrap .text_wrap {
     width: 70vw;
@@ -2716,6 +2693,34 @@ footer .menu_list {
   }
   .big_logo {
     gap: 0px;
+  }
+  .modal-inset {
+    padding: 16px;
+  }
+  .modal-inset .close {
+    width: 22px;
+    height: 22px;
+
+    top: 10px;
+    right: 10px;
+  }
+  .add_title_wrap .subtitle {
+    width: 350px;
+  }
+  .color_chip .label_wrap .btn {
+    width: 25px;
+    height: 25px;
+  }
+  .btn::after {
+    width: 28px;
+    height: 28px;
+  }
+  .color_chip {
+    gap: 16px;
+  }
+  .color_view {
+    width: 360px;
+    height: 360px;
   }
 }
 
