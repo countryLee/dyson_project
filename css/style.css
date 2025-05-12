@@ -1,4 +1,7 @@
 /* 커서 디자인 */
+* {
+  cursor: none;
+}
 .custom-cursor {
   position: fixed;
   top: -20px;
@@ -2725,9 +2728,25 @@ footer .menu_list {
 }
 
 @media (max-width: 500px) {
-  .custom-cursor {
-    display: none;
+  * {
+    cursor: pointer;
   }
+  .custom-cursor {
+    position: static;
+
+    width: auto;
+    height: auto;
+
+    pointer-events: auto;
+    z-index: 99999999;
+    mix-blend-mode: exclusion;
+    will-change: transform;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .main_banner .ontrac {
     width: 90%;
   }

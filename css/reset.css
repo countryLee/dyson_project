@@ -8,7 +8,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  cursor: none;
 }
 .sec_title_eb80 {
   font-family: "Urbanist", sans-serif;
@@ -101,5 +100,6 @@ video {
 html,
 body {
   background-color: #f9f9f9;
-  /* overflow-x: hidden; */
+  height: auto;
+  overflow-x: hidden;
 }

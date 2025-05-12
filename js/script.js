@@ -687,8 +687,11 @@ document.addEventListener(`DOMContentLoaded`, function () {
       anticipatePin: 1,
     },
   });
-
-  const lenis = new Lenis();
+  // const lenis = new Lenis()
+  const lenis = new Lenis({
+    smooth: true,
+    smoothTouch: false,
+  });
 
   lenis.on("scroll", (e) => {
     console.log(e);
